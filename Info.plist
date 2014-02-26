@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Builder Version</key>
+	<string>534.57.2</string>
+	<key>CFBundleDisplayName</key>
+	<string>odesk_chrome</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.sam0delkin.odeskchrome</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>popup.html</string>
+				<key>Identifier</key>
+				<string>popup</string>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>odesk_chrome</string>
+				<key>Image</key>
+				<string>images/odesk.png</string>
+				<key>Label</key>
+				<string>oDesk</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>jquery.js</string>
+				<string>script.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>

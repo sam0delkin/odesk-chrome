@@ -1,0 +1,26 @@
+{
+  "name": "Odesk Time checker",
+  "description": "Odesk time checker",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "background": {
+  	"scripts": ["jquery.js", "script.js"],
+  	"persistent": true
+  },
+  "options_page": "options.html",
+  "icons": { "16": "images/odesk.jpg",
+           "48": "images/odesk.jpg",
+          "128": "images/odesk.jpg" },
+  "browser_action": {
+  	"default_icon": "images/odesk16.png", 
+    "default_title": "oDesk",
+    "default_name": "oDesk",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "<all_urls>",
+    "notifications"
+    
+  ],
+  "default_locale": "ru"
+}
