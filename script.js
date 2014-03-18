@@ -13,7 +13,7 @@ function update() {
         else
 			{
 				for(var i = 0; i < data['snapshots']['snapshot'].length; i++){
-					if(data['snapshots']['snapshot'][i]['billing_status'] == 'billed.active') count++;
+					if(data['snapshots']['snapshot'][i]['billing_status'] == 'billed.active' || data['snapshots']['snapshot'][i]['billing_status'] == 'billed.memo') count++;
 				}
 			}
         time = count * 10;
